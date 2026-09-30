@@ -241,10 +241,12 @@ async function experimentInit() {
     text: '1. 本次实验分为16个循环，每个循环的流程固定',
     font: 'Arial',
     units: undefined, 
-    pos: [(- 0.4), 0.2], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
+    pos: [(-0.45), 0.2], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
-    depth: -3.0 
+    depth: -3.0 ,
+    alignHoriz: 'left',
+    alignVert: 'center
   });
   
   RULE_TEXT_2 = new visual.TextStim({
@@ -253,10 +255,12 @@ async function experimentInit() {
     text: '2.循环开始，屏幕中心会出现一个红色小球，你需要盯着这个小球',
     font: 'Arial',
     units: undefined, 
-    pos: [(- 0.4), 0.1], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
+    pos: [(-0.45), 0.1], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
-    depth: -4.0 
+    depth: -4.0 ,
+    alignHoriz: 'left',
+    alignVert: 'center
   });
   
   RULE_TEXT_3 = new visual.TextStim({
@@ -265,10 +269,12 @@ async function experimentInit() {
     text: '3.小球消失的瞬间，你需要按下空格键',
     font: 'Arial',
     units: undefined, 
-    pos: [(- 0.4), 0.0], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
+    pos: [(-0.45), 0.0], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
-    depth: -5.0 
+    depth: -5.0 ,
+    alignHoriz: 'left',
+    alignVert: 'center
   });
   
   RULE_TEXT_4 = new visual.TextStim({
@@ -277,10 +283,12 @@ async function experimentInit() {
     text: '4.你按下空格键的同时，屏幕上会出现人或物的图片（可能倒立）',
     font: 'Arial',
     units: undefined, 
-    pos: [(- 0.4), (- 0.1)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
+    pos: [(-0.45), (- 0.1)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
-    depth: -6.0 
+    depth: -6.0 ,
+    alignHoriz: 'left',
+    alignVert: 'center
   });
   
   RULE_TEXT_5 = new visual.TextStim({
@@ -289,10 +297,12 @@ async function experimentInit() {
     text: '5.你需要在辨认出人/物的瞬间按下SPACE',
     font: 'Arial',
     units: undefined, 
-    pos: [(- 0.4), (- 0.2)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
+    pos: [(-0.45), (- 0.2)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
-    depth: -7.0 
+    depth: -7.0 ,
+    alignHoriz: 'left',
+    alignVert: 'center
   });
   
   RULE_TEXT_6 = new visual.TextStim({
@@ -301,10 +311,12 @@ async function experimentInit() {
     text: '6.循环最后你需要写出你刚刚看到的人/物的名字（最好英文）\n（不要求完全正确，如ikun\\caixukun\\kunkun都算对）',
     font: 'Arial',
     units: undefined, 
-    pos: [(- 0.4), (- 0.3)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
+    pos: [(-0.45), (- 0.3)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
-    depth: -8.0 
+    depth: -8.0 ,
+    alignHoriz: 'left',
+    alignVert: 'center
   });
   
   RULE_TEXT_7 = new visual.TextStim({
@@ -313,10 +325,12 @@ async function experimentInit() {
     text: '7.你需要坐起来做实验，准备好请按下SPACE',
     font: 'Arial',
     units: undefined, 
-    pos: [(- 0.4), (- 0.4)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
+    pos: [(-0.45), (- 0.4)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
-    depth: -9.0 
+    depth: -9.0,
+    alignHoriz: 'left',
+    alignVert: 'center
   });
   
   // Initialize components for Routine "POINT"

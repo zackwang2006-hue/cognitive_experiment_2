@@ -669,12 +669,10 @@ function RULESRoutineBegin(snapshot) {
     CONTINUE_KEY_2.rt = undefined;
     _CONTINUE_KEY_2_allKeys = [];
     // Run 'Begin Routine' code from code
-    rule_texts = [RULE_TEXT_1, RULE_TEXT_2, RULE_TEXT_3, RULE_TEXT_4, RULE_TEXT_5, RULE_TEXT_6, RULE_TEXT_7];
-    for (var t, _pj_c = 0, _pj_a = rule_texts, _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
-        t = _pj_a[_pj_c];
-        t.anchorHoriz = "left";
-        t.alignText = "left";
-        t.pos = [(- 0.45), t.pos[1]];
+    for (const t of rule_texts) {
+    t.setAlignHoriz("left");
+    t.setAnchor("center-left");
+    t.setPos([-0.45, t.pos[1]]);
     }
     
     psychoJS.experiment.addData('RULES.started', globalClock.getTime());

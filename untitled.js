@@ -190,7 +190,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.1,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -2.0 
   });
   
@@ -202,7 +202,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [0, (- 0.3)], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-0.4902, -0.5059, -0.4902)),  opacity: undefined,
+    color: new util.Color([-0.4902, -0.5059, -0.4902]),  opacity: undefined,
     depth: -3.0 
   });
   
@@ -231,7 +231,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [0, 0.3], draggable: false, height: 0.1,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -0.9922)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -0.9922]),  opacity: undefined,
     depth: -2.0 
   });
   
@@ -243,7 +243,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [(- 0.4), 0.2], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -3.0 
   });
   
@@ -255,7 +255,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [(- 0.4), 0.1], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -4.0 
   });
   
@@ -267,7 +267,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [(- 0.4), 0.0], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -5.0 
   });
   
@@ -279,7 +279,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [(- 0.4), (- 0.1)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -6.0 
   });
   
@@ -291,7 +291,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [(- 0.4), (- 0.2)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -7.0 
   });
   
@@ -303,7 +303,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [(- 0.4), (- 0.3)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -8.0 
   });
   
@@ -315,7 +315,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [(- 0.4), (- 0.4)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -9.0 
   });
   
@@ -345,7 +345,7 @@ async function experimentInit() {
     anchor: 'center', 
     lineWidth: 1.0, 
     lineColor: new util.Color('white'), 
-    fillColor: new util.Color((1.0000, -1.0000, -1.0000)), 
+    fillColor: new util.Color([1.0000, -1.0000, -1.0000]), 
     colorSpace: 'rgb', 
     opacity: undefined, 
     depth: -2, 
@@ -405,7 +405,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [0, 0.3], draggable: false, height: 0.1,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -1.0 
   });
   
@@ -448,7 +448,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.1,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-1.0000, -1.0000, -1.0000)),  opacity: undefined,
+    color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: 0.0 
   });
   
@@ -460,7 +460,7 @@ async function experimentInit() {
     units: undefined, 
     pos: [0, (- 0.3)], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
-    color: new util.Color((-0.4902, -0.5059, -0.4902)),  opacity: undefined,
+    color: new util.Color([-0.4902, -0.5059, -0.4902]),  opacity: undefined,
     depth: -1.0 
   });
   

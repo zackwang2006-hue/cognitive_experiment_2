@@ -246,7 +246,7 @@ async function experimentInit() {
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -3.0 ,
     alignHoriz: 'left',
-    alignVert: 'center
+    alignVert: 'center'
   });
   
   RULE_TEXT_2 = new visual.TextStim({
@@ -260,7 +260,7 @@ async function experimentInit() {
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -4.0 ,
     alignHoriz: 'left',
-    alignVert: 'center
+    alignVert: 'center'
   });
   
   RULE_TEXT_3 = new visual.TextStim({
@@ -274,7 +274,7 @@ async function experimentInit() {
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -5.0 ,
     alignHoriz: 'left',
-    alignVert: 'center
+    alignVert: 'center'
   });
   
   RULE_TEXT_4 = new visual.TextStim({
@@ -288,7 +288,7 @@ async function experimentInit() {
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -6.0 ,
     alignHoriz: 'left',
-    alignVert: 'center
+    alignVert: 'center'
   });
   
   RULE_TEXT_5 = new visual.TextStim({
@@ -302,7 +302,7 @@ async function experimentInit() {
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -7.0 ,
     alignHoriz: 'left',
-    alignVert: 'center
+    alignVert: 'center'
   });
   
   RULE_TEXT_6 = new visual.TextStim({
@@ -316,7 +316,7 @@ async function experimentInit() {
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -8.0 ,
     alignHoriz: 'left',
-    alignVert: 'center
+    alignVert: 'center'
   });
   
   RULE_TEXT_7 = new visual.TextStim({
@@ -330,7 +330,7 @@ async function experimentInit() {
     color: new util.Color([-1.0000, -1.0000, -1.0000]),  opacity: undefined,
     depth: -9.0,
     alignHoriz: 'left',
-    alignVert: 'center
+    alignVert: 'center'
   });
   
   // Initialize components for Routine "POINT"

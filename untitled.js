@@ -662,7 +662,7 @@ function HELLORoutineEnd(snapshot) {
 
 var RULESMaxDurationReached;
 var _CONTINUE_KEY_2_allKeys;
-var rule_texts;
+
 var RULESMaxDuration;
 var RULESComponents;
 function RULESRoutineBegin(snapshot) {

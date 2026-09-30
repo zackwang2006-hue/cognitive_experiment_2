@@ -1189,7 +1189,6 @@ function STIMULATERoutineBegin(snapshot) {
     CONTINUE_KEY_4.keys = undefined;
     CONTINUE_KEY_4.rt = undefined;
     _CONTINUE_KEY_4_allKeys = [];
-    STIMULATE_IMAGE.setOri(actual_ori);
     console.log("当前刺激图片：", IMAGES, "本轮序号：", trials.thisN);
     STIMULATE_IMAGE.setImage(IMAGES);
     // Run 'Begin Routine' code from code_3
@@ -1205,6 +1204,8 @@ function STIMULATERoutineBegin(snapshot) {
     } else {
         actual_ori = 0;
     }
+      
+    STIMULATE_IMAGE.setOri(actual_ori);
     
     psychoJS.experiment.addData('STIMULATE.started', globalClock.getTime());
     STIMULATEMaxDuration = null

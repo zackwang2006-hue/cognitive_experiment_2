@@ -667,7 +667,7 @@ function RULESRoutineBegin(snapshot) {
         t = _pj_a[_pj_c];
         t.anchorHoriz = "left";
         t.alignText = "left";
-        t.pos = [(- 0.64), t.pos[1]];
+        t.pos = [(- 0.45), t.pos[1]];
     }
     
     psychoJS.experiment.addData('RULES.started', globalClock.getTime());

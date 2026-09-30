@@ -683,11 +683,7 @@ function RULESRoutineBegin(snapshot) {
     CONTINUE_KEY_2.rt = undefined;
     _CONTINUE_KEY_2_allKeys = [];
     // Run 'Begin Routine' code from code
-    for (const t of rule_texts) {
-    t.setAlignHoriz("left");
-    t.setAnchor("center-left");
-    t.setPos([0, t.pos[1]]);
-    }
+
     
     psychoJS.experiment.addData('RULES.started', globalClock.getTime());
     RULESMaxDuration = null
